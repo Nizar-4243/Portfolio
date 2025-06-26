@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <title>portfolio</title>
+        <link rel="stylesheet" href="C:\Users\user\Contacts\Desktop\bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function () {
+    const myCarouselElement = document.querySelector('#carouselExampleIndicators');
+
+    const carousel = new bootstrap.Carousel(myCarouselElement, {
+      interval: 2000,  // 3 seconds
+      ride: 'carousel',
+      wrap: true 
+    });
+  });
+
+        </script>
+        
+        <link rel="stylesheet" href="css\style.css">
+      <style>
+
+      body  {
+    /* background-image: url("images\\HD-wallpaper-plain-black-black.jpg"); */
+    background-color: black;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+      }
+p{font-size: 25px;text-align: justify;height:500px;width: 500px;float: right;}
+h1{color:aliceblue;}
+li{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+table{color:white}
+.carousel-item img {
+    width: 400px;   /* Set to desired width */
+    height: 600px;  /* Set to desired height */
+    object-fit: contain;
+    margin: auto;
+}
+
+
+    h1 {
+            position: relative;
+            font-size: 50px;
+            color: #faf5f5;
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+        }
+        
+        h1::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, #ff7e5f, #feb47b);
+            transform-origin: left;
+            transform: scaleX(0);
+            animation: scrollUnderline 3s ease-in-out infinite;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        @keyframes scrollUnderline {
+            0% {
+                transform: scaleX(0);
+                transform-origin: left;
+            }
+            50% {
+                transform: scaleX(1);
+                transform-origin: left;
+            }
+            51% {
+                transform-origin: right;
+            }
+            100% {
+                transform: scaleX(0);
+                transform-origin: right;
+            }
+        }
+           .container {
+            max-width: 800px;
+            text-align: center;
+        }
+        .project{
+         font-family: "Sofia", sans-serif;
+      }
+        </style>
+        </head>
+        <body>
+<div class="navbar">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Education.html">Education</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="project.html">project</a></li>
+        <li><a href="Contact.html">Contact</a></li></ul><br><br><br><br><br><br>
+    </div>
+      <br>
+<div class="container">
+        <h1 class="project">Projects</h1>
+      
+    </div>
+
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="images/thudajjjjjj (2).jpg" class="card-img-top" alt="...">
+    
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/magazine.jpg" class="card-img-top" alt="...">
+      
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/WhatsApp Image 2025-06-16 at 2.30.15 PM.jpeg" class="card-img-top" alt="...">
+      
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/WhatsApp Image 2025-06-16 at 2.33.35 PM.jpeg" class="card-img-top" alt="...">
+    </div>
+  </div>
+</div>
